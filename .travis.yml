@@ -43,7 +43,7 @@ script:
   ## this to the run.
   - npm run cypress:run
    
-  - npm cypress run --record
+  - npm run cypress:run -- --record
 
   ## alternatively we could specify
   ## a specific record key to use
