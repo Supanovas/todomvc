@@ -42,7 +42,7 @@ script:
   ## variable by default and apply
   ## this to the run.
   - npm run cypress:run
-  -cypress run --record
+  - npm cypress run --record
 
   ## alternatively we could specify
   ## a specific record key to use
