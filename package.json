@@ -4,7 +4,7 @@
     "cypress:version": "cypress version",
     "cypress:verify": "cypress verify",
     "cypress:open": "cypress open",
-    #"cypress:run": "cypress run",
+   
     "cypress:run": "cypress run -- example_spec",
     "cypress:run:record": "cypress run --record",
     "cypress:run:chrome": "cypress run --browser chrome",
