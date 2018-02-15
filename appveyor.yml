@@ -19,8 +19,12 @@ test_script:
   # only run if there is commit message
   # with new version
  # - run-if npm run cy:version
-  - run-if npm run cy:verify
-  - run-if npm run test:ci:record
+ # - run-if npm run cy:verify
+  #- run-if npm run test:ci:record
+  
+  - npm run cy:version
+  - npm run cy:verify
+  - npm run test:ci:record
 
 # Don't actually build.
 build: Off
