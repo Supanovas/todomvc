@@ -16,7 +16,7 @@
     "test:ci:chrome": "run-p --race start:ci cypress:run:chrome",
     "test:ci:headed": "run-p --race start:ci cypress:run:headed",
     "lint": "eslint --fix cypress/*/*.js"
-    "cypress run --record"
+    
   },
   "dependencies": {
     "director": "^1.2.0",
