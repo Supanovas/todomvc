@@ -23,7 +23,7 @@ test_script:
   #- run-if npm run test:ci:record
   
  # - npm run cy:version
-  - npm run cy:verify
+ # - npm run cy:verify
   - npm run test:ci:record
 
 # Don't actually build.
