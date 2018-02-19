@@ -43,9 +43,11 @@ script:
   ## this to the run.
   - npm run cypress:run
  
- - npm cypress:run -- example_spec",
+ - npm cypress:run -- example_spec"
    
   - npm run cypress:run -- --record
+  
+ - cypress run --record
 
   ## alternatively we could specify
   ## a specific record key to use
