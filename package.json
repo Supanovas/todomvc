@@ -13,7 +13,7 @@
     "start": "http-server -p 8888 -c-1",
     "start:ci": "http-server -p 8888 -c-1 --silent",
     "test": "npm run start & cypress run",
-    "test": "example_spec",
+    "test": "example_spec.js"
     "test": "cypress run --record",
     "test:ci": "run-p --race start:ci cypress:run",
     "test:ci:record": "run-p --race start:ci cypress:run:record",
