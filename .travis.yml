@@ -43,7 +43,7 @@ script:
   ## this to the run.
   - npm run cypress:run
  
- - npm cypress:run -- example_spec"
+ - npm cypress:run -- example_spec.js"
    
   - npm run cypress:run -- --record
   
