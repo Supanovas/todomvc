@@ -18,6 +18,14 @@
     "test:ci:headed": "run-p --race start:ci cypress:run:headed",
     "lint": "eslint --fix cypress/*/*.js"
     
+    "- npm run cypress:run"
+ 
+ "- npm cypress:run -- example_spec"
+   
+  "- npm run cypress:run -- --record"
+  
+ "- cypress run --record"
+    
   },
   "dependencies": {
     "director": "^1.2.0",
